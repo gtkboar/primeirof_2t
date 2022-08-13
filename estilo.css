@@ -1,6 +1,76 @@
-body {
-   background: grey
- }
- h1 {
-   text-align: center;
- }
+body{
+  background: cyan
+}
+h1 {
+  text-align: center;
+}
+.caixa1 {
+  position:absolute;
+  background: blue;
+  width: 200px;
+  height: 200px;
+  color:  black;
+  left: 40%
+}
+.caixa2 {
+  position: absolute;
+  background: yellow;
+  width: 200px;
+  heigth: 700px;
+  color: black;
+  left: 55%;
+}
+.menuprincipal {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background: red;
+  top: 0;
+  left: 0;
+
+
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+
+}
+
+li{
+float: left;
+
+
+}
+li a {
+  display: block;
+  color: rgb(41, 41, 41);
+  padding: 5px 3px;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover{
+  color: brown;
+  background: black;
+}
+#imagem{
+width: 15%;
+
+}
+.boximagem{
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 91%;
+  height: 200px;
+  background: black;
+  top: 50px;
+  left: 0;
+  margin: 20px;
+  border-color: gold;
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+}
