@@ -73,12 +73,12 @@ li a:hover {
   display: flex;
   justify-content: space-around;
   position: absolute;
-  width: 500px;
+  width: 400px;
   height: 300px;
-  background: white;
-  top: -100px;
-  left: 100px;
-  margin: 400px;
+  background: rgba(216, 14, 14, 0);
+  top: 190px;
+  left: 250px;
+  margin: 60px;
   border-color: black;
   border-width: 0px;
   border-style: solid;
