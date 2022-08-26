@@ -6,6 +6,19 @@ h1 {
   text-align: center;
   height: auto;
 }
+h4 {
+  text-align: center;
+  text-decoration-line:underline;
+  text-decoration-color: red;
+
+}
+h5 {
+  text-align: center;
+  text-decoration-line:underline;
+  text-decoration-color: blue;
+
+}
+
 .caixa1 {
    position: absolute;
    background: blue;
@@ -58,16 +71,16 @@ li a:hover {
 }
 .boxImage {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   position: absolute;
   width: 500px;
-  height: 200px;
+  height: 300px;
   background: white;
-  top: 380px;
-  left: 0;
-  margin: 20px;
+  top: -100px;
+  left: 100px;
+  margin: 400px;
   border-color: black;
-  border-width: 20px;
+  border-width: 0px;
   border-style: solid;
   padding: 160px;
 }
